@@ -1,0 +1,7 @@
+This repository contains the verilog files for Binary to Gray and Gray to Binary converter. 
+A Binary to Gray conversion is achieved by performing xor operation with the corresponding bits.
+For example, if a 5-bit Binary Number is B4-B3-B2-B1-B0 , with B4 as the MSB and B0 as the LSB,
+and the converted Gray code is G4-G3-G2-G1-G0, then the relation between the Gray Code and Binary Code is as follows :-
+G4 = B4 ; G3 = B4 (xor) B3 ; G2 = B3 (xor) B2 ; G1 = B2 (xor) B1 ; G0 = B1 (xor) B0.
+The MSB remains unchanged while the other bits are XORed with the previous bits. 
+More details about a Binary to Gray Converter can be found [here](https://www.tutorialspoint.com/digital-electronics/binary-to-gray-code-converter.htm) 
